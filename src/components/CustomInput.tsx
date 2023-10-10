@@ -15,7 +15,7 @@ const CustomInput = ({ todoTitle ,setTodoTitle, handleAddTodo }: Props) => {
     return (
         <div className="relative max-w-lg">
             <input
-                className="w-full rounded-full border-2 bg-gray p-3 pe-32 text-sm font-medium"
+                className="w-full rounded-full border-2 bg-gray p-3 pe-40 text-sm font-medium"
                 id="email"
                 type="text"
                 placeholder="Please add todo list"
